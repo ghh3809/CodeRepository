@@ -1,9 +1,8 @@
 # CodeRepository
-Some useful short code to accelerate coding speed.
+可能是一些比较有趣的短代码。
 
-## Code Description
+## 代码介绍
 
 ###[1. executeByDate(Shell)](https://github.com/ghh3809/CodeRepository/Shell/executeByDate/executeByDate.sh)
 
-A template for executing shell code by date.
-
+按日期执行的Shell脚本模板。
