@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Get startDate and finalDate.
-executeDate=${1}	# Current execute date
-finalDate=${2}		# Final execute date
+executeDate=${1:-`date -d "-1 day" +%Y%m%d`}	# Current execute date, and the default time is yesterday
+finalDate=${2:-${executeDate}}		# Final execute date, and the default time is same to executeDate
 stepDay=${3:-1}		# Day step to execute
 inverseFlag=false	# If false, the date is going larger, and vise versa.
 
